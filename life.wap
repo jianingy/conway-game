@@ -1,0 +1,22 @@
+[PROJECT]
+Type=0
+ReleaseCommandLine=
+DebugCommandLine=
+AutoIncFileVersion=0
+RCSilent=0
+PellesTools=0
+[MAKE]
+CompileRC=/v
+RCToObj=
+Assemble=/c /coff /Cp /nologo
+Link=/SUBSYSTEM:WINDOWS /RELEASE /VERSION:4.0
+Out=
+ActiveBuild=0
+DebAssemble=
+DebLink=
+DebOut=
+[SHOWFILE]
+2=580000007400000054050000EC02000000000000030000000000000016
+[FILES]
+1=life.rc
+2=life.asm
