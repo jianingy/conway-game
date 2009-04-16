@@ -1,5 +1,5 @@
 ;=================================================================
-;    The Game of Life, a Cell model by J.H Conwey 1970
+;    The Game of Life, a Cell model by J.H Conway 1970
 ;
 ;    Written by Jianing Yang
 ;
@@ -798,7 +798,7 @@ WndProc Proc hwnd:HWND, uMsg:UINT, wParam:WPARAM, lParam:LPARAM
 				invoke OnSaveFile
 			.ELSEIF ax == IDM_ABOUT
 			.DATA
-				szMessage db 'The Game of Life, A model of cell by J.H.Conwey, 1970',0Dh,0Ah,0Dh,0Ah\
+				szMessage db 'The Game of Life, A model of cell by J.H.Conway, 1970',0Dh,0Ah,0Dh,0Ah\
 						      ,' Written by Jianing Yang.',0Dh,0Ah
 						      
 						   db ' Report bugs to detrox@gmail.com',0Dh,0Ah\
